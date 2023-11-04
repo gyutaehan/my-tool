@@ -12,10 +12,10 @@ const App = () =>  (
    <Header />
     <main style={styles.main}>
       <Routes>
-            <Route path={`/`} element={<Hash />} />
-            <Route path={`/hash`} element={<Hash />} />
-            <Route path={`/toolb/`} element={<ToolB />} />
-            <Route path={`/toolc/`} element={<ToolC />} />
+            <Route path={`/my-tool/`} element={<Hash />} />
+            <Route path={`/my-tool/hash`} element={<Hash />} />
+            <Route path={`/my-tool/toolb/`} element={<ToolB />} />
+            <Route path={`/my-tool/toolc/`} element={<ToolC />} />
       </Routes>
     </main>
     <footer style={styles.footer}>footer</footer>
