@@ -12,7 +12,7 @@ export const Header = () => {
         </div>
         <div className='tool-menu'>
           <p><Link to="/my-tool/">Hash</Link></p>
-          <p><Link to="/my-tool/toolb">Tool2</Link></p>
+          <p><Link to="/my-tool/stringTool">StringTool</Link></p>
           <p><Link to="/my-tool/toolc">Tool3</Link></p>
       </div>
       </header>

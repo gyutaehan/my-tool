@@ -2,7 +2,7 @@ import * as React from "react";
 import "./../assets/scss/App.scss";
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Header } from "./header/Header";
-import ToolB from "./toolb/ToolB";
+import StringTool from "./stringTool/StringTool";
 import ToolC from "./toolc/ToolC";
 import Hash from "./hash/Hash";
 
@@ -14,7 +14,7 @@ const App = () =>  (
       <Routes>
             <Route path={`/my-tool/`} element={<Hash />} />
             <Route path={`/my-tool/hash`} element={<Hash />} />
-            <Route path={`/my-tool/toolb/`} element={<ToolB />} />
+            <Route path={`/my-tool/stringTool/`} element={<StringTool />} />
             <Route path={`/my-tool/toolc/`} element={<ToolC />} />
       </Routes>
     </main>
