@@ -11,9 +11,9 @@ export const Header = () => {
           my-tool
         </div>
         <div className='tool-menu'>
-          <p><Link to="/">Home</Link></p>
-          <p><Link to="/toolb">About</Link></p>
-          <p><Link to="/toolc">Service</Link></p>
+          <p><Link to="/">Hash</Link></p>
+          <p><Link to="/toolb">Tool2</Link></p>
+          <p><Link to="/toolc">Tool3</Link></p>
       </div>
       </header>
     </>
